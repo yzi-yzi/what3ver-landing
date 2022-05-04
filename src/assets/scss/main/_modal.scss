@@ -1,0 +1,90 @@
+// modal css
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: opacity 0.3s ease;
+  overflow: hidden;
+  // overflow-y: auto;
+}
+.modal-dialog {
+  max-width: 1090px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.modal-dialog-centered {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.1rem * 2));
+  @media screen and (max-width: 1100px) {
+    min-height: calc(100% - (-2rem * 2));
+  }
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  pointer-events: none;
+}
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  box-shadow: none;
+  padding: 50px;
+  height: 75vh;
+  overflow-y: auto;
+  @media screen and(max-width:991px) {
+    padding: 50px 30px;
+  }
+  @media screen and(max-width:575px) {
+    padding: 35px 20px;
+    height: 470px;
+  }
+}
+button.modal-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #ddd;
+  padding: 15px;
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.close .svg {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 45px;
+  height: 45px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.modal-content.calltoactions-content {
+  padding-bottom: 0;
+}
