@@ -14,10 +14,8 @@
 
     <div class="right">
       <div class="shane_tm_title">
-        <span>About Me</span>
-        <h3>
-          Creative Independent Web Developer based in Australia
-        </h3>
+        <span>About Us</span>
+        <h3>Creative Independent Web Developer based in Australia</h3>
       </div>
       <div class="text">
         <p>
@@ -29,9 +27,7 @@
         </p>
       </div>
       <div class="shane_tm_button">
-        <a :href="cv" download>
-          Download CV
-        </a>
+        <a :href="cv" download> Download CV </a>
       </div>
     </div>
     <!-- End right -->

@@ -21,12 +21,10 @@
 
     <div class="talk_inner">
       <div class="text" v-scroll-reveal="{ delay: 100 }">
-        <h3>Let's work together!</h3>
+        <h3>Gửi câu hỏi cho tụi mình</h3>
       </div>
       <div class="button" v-scroll-reveal="{ delay: 200 }">
-        <button class="white-fill-bg" @click="showModal">
-          Make an enquiry
-        </button>
+        <button class="white-fill-bg" @click="showModal">Liên Hệ</button>
       </div>
     </div>
     <!-- End talk_inner -->
@@ -40,7 +38,7 @@
         @click="closeModal"
         v-if="isVisible"
       >
-        <div class="modal-dialog modal-dialog-centered " @click.stop>
+        <div class="modal-dialog modal-dialog-centered" @click.stop>
           <div class="modal-content calltoactions-content">
             <div class="close" @click="closeModal">
               <img
@@ -54,7 +52,7 @@
             <div class="shane_tm_mobalbox_contact">
               <div class="box_inner">
                 <div class="title">
-                  <h3>Get in Touch</h3>
+                  <h3>Liên hệ</h3>
                 </div>
 
                 <div class="wrapper">
@@ -82,7 +80,7 @@
                           src="../../assets/img/svg/location.svg"
                           alt="location"
                         />
-                        <p>Brook 103, 90021 New York, USA</p>
+                        <p>Đường Láng, Đống Đa, Hà Nội</p>
                       </div>
                     </li>
                     <!-- End silgle address -->
@@ -95,7 +93,7 @@
                           alt="phone"
                         />
                         <p>
-                          <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
+                          <a href="tel:+77 033 442 55 57">+84 389 032 455</a>
                         </p>
                       </div>
                     </li>
@@ -147,11 +145,11 @@ export default {
     };
   },
   methods: {
-    showModal: function() {
+    showModal: function () {
       this.isActive = true;
       this.isVisible = true;
     },
-    closeModal: function() {
+    closeModal: function () {
       this.isActive = false;
       this.isVisible = false;
     },

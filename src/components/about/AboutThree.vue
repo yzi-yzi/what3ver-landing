@@ -15,7 +15,7 @@
 
     <div class="right">
       <div class="shane_tm_title">
-        <span v-scroll-reveal="{ delay: 20 }">About Me</span>
+        <span v-scroll-reveal="{ delay: 20 }">About Us</span>
         <h3 v-scroll-reveal="{ delay: 40 }">
           Creative Software Engineer based in New York, USA
         </h3>
@@ -30,9 +30,7 @@
         </p>
       </div>
       <div class="shane_tm_button" v-scroll-reveal="{ delay: 80 }">
-        <a :href="cv" download>
-          Download CV
-        </a>
+        <a :href="cv" download> Download CV </a>
       </div>
     </div>
     <!-- End right -->

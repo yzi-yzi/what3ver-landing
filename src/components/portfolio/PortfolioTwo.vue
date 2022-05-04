@@ -7,8 +7,8 @@
       <div class="shane_tm_title">
         <div class="title_flex">
           <div class="left">
-            <span>Portfolio</span>
-            <h3>Creative Portfolio</h3>
+            <span>Danh Mục</span>
+            <h3>Sản Phẩm Nổi Bật</h3>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
             <a
               v-on:click="activetab = 1"
               :class="[activetab === 1 ? 'active' : '']"
-              >All</a
+              >Tất Cả</a
             >
           </li>
           <!-- End All for tabcontent 1 -->
@@ -27,7 +27,7 @@
             <a
               v-on:click="activetab = 2"
               :class="[activetab === 2 ? 'active' : '']"
-              >Vimeo</a
+              >Váy</a
             >
           </li>
           <!-- End Vimeo tabcontent 2 -->
@@ -35,7 +35,7 @@
             <a
               v-on:click="activetab = 3"
               :class="[activetab === 3 ? 'active' : '']"
-              >Youtube</a
+              >Áo Sơ Mi</a
             >
           </li>
           <!-- End .Youtube tabcontent 3 -->
@@ -43,7 +43,7 @@
             <a
               v-on:click="activetab = 4"
               :class="[activetab === 4 ? 'active' : '']"
-              >Gallery</a
+              >Phụ Kiện</a
             >
           </li>
           <!-- End Mix tabcontent 4 -->

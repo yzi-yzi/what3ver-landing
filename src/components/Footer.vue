@@ -6,13 +6,13 @@
           <p>
             &copy; {{ new Date().getFullYear() }}
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://www.facebook.com/what3verboutique"
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              What3ver Boutique
             </a>
-            . All rights reserved.
+            . Đã đăng kí bản quyền.
           </p>
         </div>
         <!-- End inner -->

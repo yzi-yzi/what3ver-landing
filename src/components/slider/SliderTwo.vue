@@ -12,13 +12,17 @@
       <div class="container">
         <div class="content">
           <div class="name_wrap">
-            <h3><span>Mrs</span> Iqra<span class="overlay_effect"></span></h3>
+            <h3>
+              <span>What3ver</span> <br />Boutique<span
+                class="overlay_effect"
+              ></span>
+            </h3>
           </div>
           <!-- End title -->
 
           <div class="job_wrap">
             <span class="job">
-              Ui & Ux Designer
+              Women Fashion / You are the only one
               <span class="overlay_effect"></span>
             </span>
           </div>

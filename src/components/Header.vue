@@ -5,7 +5,10 @@
         <div class="topbar_inner">
           <div class="logo">
             <router-link to="/">
-              <img src="../assets/img/logo/new/dark_2.png" alt="partners brand" />
+              <img
+                src="../assets/img/logo/new/dark_2.png"
+                alt="partners brand"
+              />
             </router-link>
           </div>
           <!-- End logo -->
@@ -17,18 +20,18 @@
               :duration="100"
               :alwaysTrack="true"
             >
-              <a href="#home" class="scrollactive-item">Home</a>
-              <a href="#about" class="scrollactive-item">About</a>
-              <a href="#portfolio" class="scrollactive-item">Portfolio</a>
-              <a href="#news" class="scrollactive-item">News</a>
-              <a href="#contact" class="scrollactive-item">Contact</a>
+              <a href="#home" class="scrollactive-item">Trang Chủ</a>
+              <a href="#about" class="scrollactive-item">Giới Thiệu</a>
+              <a href="#portfolio" class="scrollactive-item">Danh Mục</a>
+              <a href="#news" class="scrollactive-item">Sản Phẩm</a>
+              <a href="#contact" class="scrollactive-item">Liên Hệ</a>
               <a
                 class="white-fill-bg btn-outline btn_sm"
                 target="_blank"
                 rel="noreferrer"
-                href="#"
+                href="https://shopee.vn/what3ver_boutique"
               >
-                Buy Now
+                Shop Now
               </a>
             </scrollactive>
           </div>
@@ -46,7 +49,7 @@
             <div class="logo">
               <router-link to="/">
                 <img
-                  src="../assets/img/logo/new/dark.png"
+                  src="../assets/img/logo/new/dark_2.png"
                   alt="partners brand"
                 />
               </router-link>
@@ -77,34 +80,24 @@
             @click="active = !active"
             :aria-pressed="active ? 'true' : 'false'"
           >
-            close
+            đóng
           </span>
           <div class="dropdown_inner">
             <ul class="anchor_nav">
               <li class="current">
-                <a href="#home" @click="active = !active">
-                  Home
-                </a>
+                <a href="#home" @click="active = !active"> Trang Chủ </a>
               </li>
               <li>
-                <a href="#about" @click="active = !active">
-                  About
-                </a>
+                <a href="#about" @click="active = !active"> Giới Thiệu </a>
               </li>
               <li>
-                <a href="#portfolio" @click="active = !active">
-                  Portfolio
-                </a>
+                <a href="#portfolio" @click="active = !active"> Danh Mục </a>
               </li>
               <li>
-                <a href="#news" @click="active = !active">
-                  News
-                </a>
+                <a href="#news" @click="active = !active"> Sản Phẩm </a>
               </li>
               <li>
-                <a href="#contact" @click="active = !active">
-                  Contact
-                </a>
+                <a href="#contact" @click="active = !active"> Liên Hệ </a>
               </li>
               <li>
                 <a
@@ -113,7 +106,7 @@
                   rel="noreferrer"
                   href="https://themeforest.net/"
                 >
-                  Buy Now
+                  Shop Now
                 </a>
               </li>
             </ul>

@@ -18,24 +18,19 @@ export default {
     return {
       socialList: [
         {
-          link: "https://www.facebook.com/",
+          link: "https://shopee.vn/what3ver_boutique",
+          src: require("../assets/img/svg/social/shopee.svg"),
+        },
+        {
+          link: "https://www.facebook.com/what3verboutique",
           src: require("../assets/img/svg/social/facebook.svg"),
         },
         {
-          link: "https://twitter.com/",
-          src: require("../assets/img/svg/social/twitter.svg"),
-        },
-        {
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/what3ver.boutique",
           src: require("../assets/img/svg/social/instagram.svg"),
         },
-
         {
-          link: "https://dribbble.com/",
-          src: require("../assets/img/svg/social/dribbble.svg"),
-        },
-        {
-          link: "https://www.tiktok.com/",
+          link: "https://www.tiktok.com/@serein0506",
           src: require("../assets/img/svg/social/tik-tok.svg"),
         },
       ],
