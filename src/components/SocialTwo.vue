@@ -20,10 +20,10 @@ export default {
         },
         {
           link: "https://twitter.com/",
-          src: require("../assets/img/svg/social/twitter.svg"),
+          src: require("../assets/img/svg/social/shopee.svg"),
         },
         {
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/what3ver.boutique",
           src: require("../assets/img/svg/social/instagram.svg"),
         },
 

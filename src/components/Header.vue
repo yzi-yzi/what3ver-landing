@@ -5,7 +5,7 @@
         <div class="topbar_inner">
           <div class="logo">
             <router-link to="/">
-              <img src="../assets/img/logo/new/dark.png" alt="partners brand" />
+              <img src="../assets/img/logo/new/dark_2.png" alt="partners brand" />
             </router-link>
           </div>
           <!-- End logo -->
@@ -145,4 +145,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.logo a img {
+  height: 44px;
+}
+</style>

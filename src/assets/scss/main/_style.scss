@@ -33,7 +33,7 @@ html {
   margin: 0px;
 }
 body {
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -102,7 +102,7 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.4;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   color: #000;
 }
 
@@ -445,7 +445,7 @@ h6 {
   color: #fff;
   display: inline-block;
   padding: 5px 0px;
-  font-family: "Montserrat";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
   @media only screen and (min-width: 768px) and (max-width: 1040px) {
@@ -525,7 +525,7 @@ h6 {
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   transition: all 0.3s ease;
 }
 .shane_tm_topbar .menu .anchor_nav a {
@@ -645,7 +645,7 @@ h6 {
 .shane_tm_hero .content h3 {
   position: relative;
   font-size: 72px;
-  font-family: "Montserrat";
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   color: #000;
@@ -664,7 +664,7 @@ h6 {
 .shane_tm_hero .content .job {
   font-weight: 500;
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   float: left;
   position: relative;
   overflow: hidden;
@@ -859,7 +859,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .experience .year {
   font-size: 80px;
   font-weight: 800;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   margin-bottom: 3px;
   line-height: 1;
@@ -868,7 +868,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_about .experience .text {
   color: #fff;
   font-style: italic;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   opacity: 0.7;
 }
 .shane_tm_about .right {
@@ -883,7 +883,7 @@ body.loaded .overlay_effect:after {
 }
 .shane_tm_title h3 {
   font-weight: 800;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
 }
 .shane_tm_title span {
   display: inline-block;
@@ -893,7 +893,7 @@ body.loaded .overlay_effect:after {
   font-weight: 600;
   font-size: 12px;
   color: #333;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0px;
   margin-bottom: 15px;
 }
@@ -918,7 +918,7 @@ body.loaded .overlay_effect:after {
   display: inline-block;
   padding: 13px 48px;
   border: 2px solid #000;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
   @media screen and (max-width: 992px) {
     padding: 8px 25px;
@@ -960,7 +960,7 @@ body.loaded .overlay_effect:after {
     li {
       text-decoration: none;
       color: #000;
-      font-family: "Poppins";
+      font-family: 'Open Sans', sans-serif;
       font-weight: 500;
       cursor: pointer;
       position: relative;
@@ -1073,7 +1073,7 @@ body.loaded .overlay_effect:after {
   background: #ffffff;
   font-size: 18px;
   padding: 5px 15px;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #000;
   position: fixed;
@@ -1091,7 +1091,7 @@ body.loaded .overlay_effect:after {
   top: 100%;
   left: 0;
   margin-top: -10px;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
   padding: 5px 15px;
@@ -1122,7 +1122,7 @@ body.loaded .overlay_effect:after {
   font-weight: 600;
 }
 .shane_tm_portfolio .mobile_title span {
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #000;
 }
@@ -1173,7 +1173,7 @@ body.loaded .overlay_effect:after {
   width: 100%;
   display: block;
   text-align: left;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #333;
 }
@@ -1328,7 +1328,7 @@ body.loaded .overlay_effect:after {
 }
 .shane_tm_business_video .text {
   color: #fff;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   max-width: 600px;
   margin: 0px auto;
@@ -1349,7 +1349,7 @@ body.loaded .overlay_effect:after {
   display: inline-block;
   padding: 16px 50px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
 }
@@ -1487,7 +1487,7 @@ body.loaded .overlay_effect:after {
   position: relative;
 }
 .shane_tm_testimonials .right .short .author {
-  font-family: "Montserrat";
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #000;
   font-weight: 600;
@@ -1621,7 +1621,7 @@ body.loaded .overlay_effect:after {
 }
 .shane_tm_news .news_list ul li .details .date {
   text-transform: uppercase;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #767676;
   font-style: italic;
@@ -1730,7 +1730,7 @@ body.modal {
 }
 .shane_tm_modalbox_news .date {
   text-transform: uppercase;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #767676;
   font-style: italic;
@@ -1773,7 +1773,7 @@ body.modal {
   padding-top: 14px;
 }
 .shane_tm_modalbox_news .share span {
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-weight: 600;
   display: inline-block;
@@ -1852,7 +1852,7 @@ body.modal {
   display: inline-block;
   padding: 15px 48px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
   cursor: pointer;
   font-size: 16px;
@@ -1952,7 +1952,7 @@ body.modal {
   text-align: center;
 }
 .shane_tm_copyright p {
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 .shane_tm_copyright a {
@@ -2096,7 +2096,7 @@ body.modal {
   padding: 50px 15px;
 }
 .shane_tm_mobalbox_contact .short_info > ul > li p {
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #fff;
 }
@@ -2364,7 +2364,7 @@ body.modal {
 }
 .shane_tm_settings .title {
   color: #fff;
-  font-family: "Montserrat";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   position: relative;
   display: inline-block;
@@ -2532,7 +2532,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   color: #000;
   font-size: 13px;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: 'Open Sans', sans-serif;
   display: block;
   position: relative;
   top: 2px;
@@ -2612,7 +2612,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   padding-bottom: 20px;
 }
 .shane_tm_intro .hero p {
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #fff;
   font-size: 20px;
@@ -2626,7 +2626,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   display: inline-block;
   padding: 13px 48px;
   border: 2px solid #fff;
-  font-family: "Poppins";
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -3151,7 +3151,7 @@ body.intro .loader_line:after {
   .shane_tm_hero .content .job {
     font-weight: 700;
     font-size: 35px;
-    font-family: "Montserrat";
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding: 8px 0px 10px;
     @media (max-width: 1040px) {
@@ -3275,7 +3275,7 @@ body.intro .loader_line:after {
   h2 {
     font-weight: 900;
     font-size: 125px;
-    font-family: "Montserrat";
+    font-family: 'Open Sans', sans-serif;
     line-height: 1;
     letter-spacing: 5px;
     @media screen and (max-width: 768px) {

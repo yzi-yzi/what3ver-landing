@@ -1,51 +1,18 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import NotFound from "../views/NotFound.vue";
-import Preview from "../views/Preview.vue";
+import Home from "../views/Home.vue"
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Preview",
+    name: "Home",
     meta: {
-      title: "Preview",
+      title: "What3ver Boutique - You are the only one",
     },
-    component: Preview,
-  },
-  {
-    path: "/main-demo",
-    name: "MainDemo",
-    meta: {
-      title: "Main Demo",
-    },
-    component: () => import("../views/all-home-version/MainDemo.vue"),
-  },
-  {
-    path: "/creative-portfolio",
-    name: "CreativePortfolio",
-    meta: {
-      title: "Creative Portfolio",
-    },
-    component: () => import("../views/all-home-version/CreativePortfolio.vue"),
-  },
-  {
-    path: "/modern-portfolio",
-    name: "ModernPortfolio",
-    meta: {
-      title: "Modern Portfolio",
-    },
-    component: () => import("../views/all-home-version/ModernPortfolio.vue"),
-  },
-  {
-    path: "/creative-portfolio-02",
-    name: "CreativePortfolioTwo",
-    meta: {
-      title: "Creative Portfolio Two",
-    },
-    component: () =>
-      import("../views/all-home-version/CreativePortfolioTwo.vue"),
+    component: Home,
   },
   {
     path: "*",

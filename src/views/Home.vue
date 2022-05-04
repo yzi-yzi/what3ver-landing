@@ -1,5 +1,5 @@
 <template>
-  <div class="home-three">
+  <div class="home-two">
     <Header />
     <!-- End Header Section -->
 
@@ -84,17 +84,17 @@
 </template>
 
 <script>
-import Header from "../../components/Header";
-import Slider from "../../components/slider/SliderThree";
-import About from "../../components/about/AboutThree";
-import Portfolio from "../../components/portfolio/PortfolioTwo";
-import Skills from "../../components/skills/SkillsTwo";
-import Video from "../../components/video/VideoTwo";
-import Brand from "../../components/Brand";
-import Testimonial from "../../components/testimonial/TestimonialTwo";
-import News from "../../components/news/NewsTwo";
-import CallToActions from "../../components/calltoactions/CallToActionsTwo";
-import Footer from "../../components/Footer";
+import Header from "../components/Header";
+import Slider from "../components/slider/SliderTwo";
+import About from "../components/about/AboutTwo";
+import Portfolio from "../components/portfolio/PortfolioTwo";
+import Skills from "../components/skills/SkillsTwo";
+import Video from "../components/video/VideoTwo";
+import Brand from "../components/Brand";
+import Testimonial from "../components/testimonial/TestimonialTwo";
+import News from "../components/news/NewsTwo";
+import CallToActions from "../components/calltoactions/CallToActionsTwo";
+import Footer from "../components/Footer";
 export default {
   components: {
     Header,
@@ -112,4 +112,4 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped></style>
