@@ -10,7 +10,7 @@ const routes = [
     path: "/",
     name: "Home",
     meta: {
-      title: "What3ver Boutique - You are the only one",
+      title: "Trang chủ",
     },
     component: Home,
   },
@@ -38,7 +38,7 @@ const router = new VueRouter({
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
     document.title =
-      to.meta.title + " | Shane - VueJS Personal Portfolio Template";
+      to.meta.title + " | What3ver Boutique - Thương hiệu thời trang nữ";
   }
 });
 
