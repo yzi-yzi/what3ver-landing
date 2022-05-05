@@ -85,10 +85,10 @@
                 <a href="#about" @click="active = !active"> Giới Thiệu </a>
               </li>
               <li>
-                <a href="#portfolio" @click="active = !active"> Danh Mục </a>
+                <a href="#portfolio" @click="active = !active"> Sản Phẩm </a>
               </li>
               <li>
-                <a href="#news" @click="active = !active"> Sản Phẩm </a>
+                <a href="#news" @click="active = !active"> Best Seller </a>
               </li>
               <li>
                 <a href="#contact" @click="active = !active"> Liên Hệ </a>
