@@ -1040,10 +1040,10 @@ body.loaded .overlay_effect:after {
 .shane_tm_button a {
   text-decoration: none;
   color: #fff;
-  background-color: #ffbc66;
+  background-color: #000;
   display: inline-block;
   padding: 13px 48px;
-  border: 2px solid #ffbc66;
+  border: 2px solid #000;
   font-family: 'Open Sans', sans-serif;
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
 
@@ -1053,8 +1053,7 @@ body.loaded .overlay_effect:after {
 }
 
 .shane_tm_button a:hover {
-  color: #8A8635;
-  border-color: #8A8635;
+  color: #000;
   background-color: transparent;
   transform: translateY(-3px);
 }
@@ -1119,7 +1118,8 @@ body.loaded .overlay_effect:after {
         display: block;
 
         &.active {
-          background-color: #ffbc66;
+          background-color: #000;
+          color: #fff;
         }
       }
     }
@@ -2116,14 +2116,9 @@ body.modal {
   }
 
   &.fill-black {
-    background: #ffbc66;
+    background: #000;
     color: #fff;
-    border-color: #ffbc66;
-
-    &:hover {
-      border-color: #8A8635;
-      color: #8A8635 !important;
-    }
+    border-color: #000;
   }
 
   &.btn-outline {
@@ -2387,7 +2382,7 @@ body.modal {
   clear: both;
   float: left;
   position: relative;
-  background-color: #8A8635;
+  background-color: #000;
   padding: 50px 15px;
 }
 
@@ -3669,7 +3664,7 @@ body.intro .loader_line:after {
   }
 
   .white-fill-bg.btn_sm {
-    border-color: #ffbc66 !important;
+    border-color: #555 !important;
 
     &:hover {
       border-color: #fff !important;
@@ -3685,8 +3680,8 @@ body.intro .loader_line:after {
     border-color: #555 !important;
 
     &:hover {
-      border-color: #ffbc66 !important;
-      background: #ffbc66 !important;
+      border-color: #000 !important;
+      background: #000 !important;
       color: #fff !important;
     }
   }

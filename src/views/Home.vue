@@ -23,22 +23,8 @@
     </div>
     <!-- End Portfolio Section -->
 
-    <Skills />
-    <!-- End Skills Section -->
-
     <Video />
     <!-- End Video Section -->
-
-    <div class="shane_tm_section">
-      <div class="shane_tm_partners">
-        <div class="container">
-          <div class="partners_inner">
-            <Brand />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End shane_tm_partners -->
 
     <div class="shane_tm_section">
       <div class="shane_tm_testimonials">
@@ -46,8 +32,8 @@
           <div class="testimonials_inner">
             <div class="left" v-scroll-reveal="{ delay: 50 }">
               <div class="shane_tm_title">
-                <span>Testimonials</span>
-                <h3>What clients say about my portfolio template</h3>
+                <span>Đánh Giá</span>
+                <h3>Khách hàng nói gì sau khi mua sản phẩm tại What3ver</h3>
               </div>
             </div>
 
@@ -64,8 +50,8 @@
       <div class="shane_tm_news">
         <div class="container">
           <div class="shane_tm_title">
-            <span>News</span>
-            <h3>Latest News</h3>
+            <span>Sản Phẩm</span>
+            <h3>Bán Chạy Nhất Tuần</h3>
           </div>
           <!-- End shane_tm_title -->
           <News />
@@ -88,9 +74,7 @@ import Header from "../components/Header";
 import Slider from "../components/slider/SliderTwo";
 import About from "../components/about/AboutTwo";
 import Portfolio from "../components/portfolio/PortfolioTwo";
-import Skills from "../components/skills/SkillsTwo";
 import Video from "../components/video/VideoTwo";
-import Brand from "../components/Brand";
 import Testimonial from "../components/testimonial/TestimonialTwo";
 import News from "../components/news/NewsTwo";
 import CallToActions from "../components/calltoactions/CallToActionsTwo";
@@ -101,9 +85,7 @@ export default {
     Slider,
     About,
     Portfolio,
-    Skills,
     Video,
-    Brand,
     Testimonial,
     News,
     CallToActions,

@@ -22,8 +22,8 @@
             >
               <a href="#home" class="scrollactive-item">Trang Chủ</a>
               <a href="#about" class="scrollactive-item">Giới Thiệu</a>
-              <a href="#portfolio" class="scrollactive-item">Danh Mục</a>
-              <a href="#news" class="scrollactive-item">Sản Phẩm</a>
+              <a href="#portfolio" class="scrollactive-item">Sản Phẩm</a>
+              <a href="#news" class="scrollactive-item">Best Seller</a>
               <a href="#contact" class="scrollactive-item">Liên Hệ</a>
               <a
                 class="white-fill-bg btn-outline btn_sm"

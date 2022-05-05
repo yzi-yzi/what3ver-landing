@@ -7,8 +7,8 @@
       <div class="shane_tm_title">
         <div class="title_flex">
           <div class="left">
-            <span>Danh Mục</span>
-            <h3>Sản Phẩm Nổi Bật</h3>
+            <span>Sản Phẩm</span>
+            <h3>Nổi Bật</h3>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
+                <h3>Xem Sản Phẩm</h3>
                 <span>{{ image.portfolioType }}</span>
               </div>
             </div>
@@ -80,20 +80,16 @@
     <div v-if="activetab === 2" class="tabcontent">
       <div class="portfolio_list">
         <ul>
-          <CoolLightBox
-            :items="vimeoItems"
-            :index="index"
-            @close="index = null"
-          >
+          <CoolLightBox :items="vayItems" :index="index" @close="index = null">
           </CoolLightBox>
-          <li v-for="(image, imageIndex) in vimeoItems" :key="imageIndex">
+          <li v-for="(image, imageIndex) in vayItems" :key="imageIndex">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
+                <h3>Xem Sản Phẩm</h3>
                 <span>{{ image.portfolioType }}</span>
               </div>
             </div>
@@ -109,19 +105,19 @@
       <div class="portfolio_list">
         <ul>
           <CoolLightBox
-            :items="youtubeItems"
+            :items="aosomiItems"
             :index="index"
             @close="index = null"
           >
           </CoolLightBox>
-          <li v-for="(image, imageIndex) in youtubeItems" :key="imageIndex">
+          <li v-for="(image, imageIndex) in aosomiItems" :key="imageIndex">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
+                <h3>Xem Sản Phẩm</h3>
                 <span>{{ image.portfolioType }}</span>
               </div>
             </div>
@@ -137,20 +133,20 @@
       <div class="portfolio_list">
         <ul>
           <CoolLightBox
-            :items="galleryItems"
+            :items="phukienItems"
             :index="index"
             @close="index = null"
           >
           </CoolLightBox>
 
-          <li v-for="(image, imageIndex) in galleryItems" :key="imageIndex">
+          <li v-for="(image, imageIndex) in phukienItems" :key="imageIndex">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
+                <h3>Xem Sản Phẩm</h3>
                 <span>{{ image.portfolioType }}</span>
               </div>
             </div>
@@ -172,97 +168,129 @@ export default {
       allItems: [
         {
           src: "https://vimeo.com/43338103",
-          thumb: require("../../assets/img/portfolio/13.jpg"),
+          thumb: require("../../assets/img/portfolio/23.jpg"),
           portfolioName: "My Song",
-          portfolioType: "Vimeo",
+          portfolioType: "Váy",
         },
         {
-          src: require("../../assets/img/portfolio/14.jpg"),
-          thumb: require("../../assets/img/portfolio/14.jpg"),
+          src: require("../../assets/img/portfolio/2.jpg"),
+          thumb: require("../../assets/img/portfolio/2.jpg"),
           portfolioName: "Fashion Memory",
-          portfolioType: "Gallery",
+          portfolioType: "Áo Sơ Mi",
         },
         {
-          src: require("../..//assets/img/portfolio/15.jpg"),
-          thumb: require("../../assets/img/portfolio/15.jpg"),
+          src: require("../..//assets/img/portfolio/3.jpg"),
+          thumb: require("../../assets/img/portfolio/3.jpg"),
           portfolioName: "Childhood Memory",
-          portfolioType: "Gallery",
+          portfolioType: "Áo Sơ Mi",
         },
         {
           src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../../assets/img/portfolio/24.jpg"),
-          portfolioName: "My Hits",
-          portfolioType: "Youtube",
+          thumb: require("../../assets/img/portfolio/31.jpg"),
+          portfolioName: "Túi vải canvas",
+          portfolioType: "Phụ Kiện",
         },
         {
           src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../..//assets/img/portfolio/11.jpg"),
+          thumb: require("../..//assets/img/portfolio/5.jpg"),
           portfolioName: "University Life",
-          portfolioType: "Youtube",
+          portfolioType: "Áo Sơ Mi",
         },
         {
-          src: require("../..//assets/img/portfolio/16.jpg"),
-          thumb: require("../..//assets/img/portfolio/16.jpg"),
+          src: require("../..//assets/img/portfolio/6.jpg"),
+          thumb: require("../..//assets/img/portfolio/6.jpg"),
           portfolioName: "Beautiful Memory",
-          portfolioType: "Gallery",
+          portfolioType: "Áo Sơ Mi",
         },
       ],
-      vimeoItems: [
+      vayItems: [
         {
           src: "https://vimeo.com/43338103",
-          thumb: require("../../assets/img/portfolio/13.jpg"),
+          thumb: require("../../assets/img/portfolio/21.jpg"),
           portfolioName: "My Sound",
-          portfolioType: "Vimeo",
+          portfolioType: "Váy",
         },
         {
           src: "https://vimeo.com/176916362",
           thumb: require("../../assets/img/portfolio/22.jpg"),
           portfolioName: "Old is Gold",
-          portfolioType: "Vimeo",
+          portfolioType: "Váy",
+        },
+        {
+          src: "https://vimeo.com/176916362",
+          thumb: require("../../assets/img/portfolio/23.jpg"),
+          portfolioName: "Old is Gold",
+          portfolioType: "Váy",
+        },
+        {
+          src: "https://vimeo.com/176916362",
+          thumb: require("../../assets/img/portfolio/28.jpg"),
+          portfolioName: "Old is Gold",
+          portfolioType: "Váy",
+        },
+        {
+          src: "https://vimeo.com/176916362",
+          thumb: require("../../assets/img/portfolio/25.jpg"),
+          portfolioName: "Old is Gold",
+          portfolioType: "Váy",
+        },
+        {
+          src: "https://vimeo.com/176916362",
+          thumb: require("../../assets/img/portfolio/26.jpg"),
+          portfolioName: "Old is Gold",
+          portfolioType: "Váy",
         },
       ],
-      youtubeItems: [
+      aosomiItems: [
         {
           src: "https://youtu.be/YlBTaj0cXQY",
-          thumb: require("../../assets/img/portfolio/15.jpg"),
+          thumb: require("../../assets/img/portfolio/1.jpg"),
           portfolioName: "Behance Design",
-          portfolioType: "Youtube",
+          portfolioType: "Áo Sơ Mi",
         },
         {
           src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../../assets/img/portfolio/24.jpg"),
+          thumb: require("../../assets/img/portfolio/4.jpg"),
           portfolioName: "Themeforest Design",
-          portfolioType: "Youtube",
+          portfolioType: "Áo Sơ Mi",
         },
-      ],
-      mixItems: [
         {
-          src: require("../../assets/img/portfolio/2.jpg"),
-          thumb: require("../../assets/img/portfolio/2.jpg"),
+          src: "https://youtu.be/YlBTaj0cXQY",
+          thumb: require("../../assets/img/portfolio/7.jpg"),
+          portfolioName: "Behance Design",
+          portfolioType: "Áo Sơ Mi",
         },
         {
           src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../../assets/img/portfolio/14.jpg"),
+          thumb: require("../../assets/img/portfolio/8.jpg"),
+          portfolioName: "Themeforest Design",
+          portfolioType: "Áo Sơ Mi",
+        },
+        {
+          src: "https://youtu.be/YlBTaj0cXQY",
+          thumb: require("../../assets/img/portfolio/11.jpg"),
+          portfolioName: "Behance Design",
+          portfolioType: "Áo Sơ Mi",
+        },
+        {
+          src: "https://youtu.be/ZOoVOfieAF8",
+          thumb: require("../../assets/img/portfolio/12.jpg"),
+          portfolioName: "Themeforest Design",
+          portfolioType: "Áo Sơ Mi",
         },
       ],
-      galleryItems: [
+      phukienItems: [
         {
-          src: require("../../assets/img/portfolio/11.jpg"),
-          thumb: require("../../assets/img/portfolio/11.jpg"),
+          src: require("../../assets/img/portfolio/31.jpg"),
+          thumb: require("../../assets/img/portfolio/31.jpg"),
           portfolioName: "Beautiful Memory",
-          portfolioType: "Gallery",
+          portfolioType: "Phụ Kiện",
         },
         {
-          src: require("../../assets/img/portfolio/14.jpg"),
-          thumb: require("../../assets/img/portfolio/14.jpg"),
+          src: require("../../assets/img/portfolio/32.jpg"),
+          thumb: require("../../assets/img/portfolio/32.jpg"),
           portfolioName: "Childhood Memory",
-          portfolioType: "Gallery",
-        },
-        {
-          src: require("../../assets/img/portfolio/16.jpg"),
-          thumb: require("../../assets/img/portfolio/16.jpg"),
-          portfolioName: "University Lift",
-          portfolioType: "Gallery",
+          portfolioType: "Phụ Kiện",
         },
       ],
       index: null,
