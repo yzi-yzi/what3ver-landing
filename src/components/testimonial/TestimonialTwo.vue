@@ -42,31 +42,25 @@ export default {
     return {
       testimonialContent: [
         {
-          name: "Justin Bieber",
-          designation: "Photographer",
-          imgSrc: require("../../assets/img/about/1.jpg"),
-          desc: `We were looking for a logo with a touch of modernism. Arlo grasped our
-          needs and produced a stunning design. Awesome to work with Arlo.
-          Incredibly organized, easy to communicate with, responsive with next
-          iterations.`,
+          name: "hongvan",
+          designation: "Người mua hàng",
+          imgSrc: require("../../assets/img/feedback/1.jpg"),
+          desc: `Váy xinh lắm lắm luôn, tặng kèm scrunchies cũng xinh xẻo nữa.
+            Thấy chưa nhiều lượt đánh giá nên ban đầu cũng lo lắng,
+            đến khi nhận hàng về thì đẹp bất ngờ, vừa rẻ vừa đẹp thướt tha ý.
+            Sẽ ủng hộ shop nhiều nhiều ạaa 😍😍`,
         },
         {
-          name: "Teodor Federico",
-          designation: "Freelancer",
-          imgSrc: require("../../assets/img/about/2.jpg"),
-          desc: ` I purchased the theme a few weeks ago. I had some issues with the
-              theme, I asked customer support to help me with and they were
-              helpful and kind to help me with all my problems. I definitely
-              recommend this theme to everyone.`,
+          name: "buithinhan",
+          designation: "Người mua hàng",
+          imgSrc: require("../../assets/img/feedback/2.jpg"),
+          desc: `Váy xinh thực sự, chất mềm mát và thơm lắm luôn. Mình order nhầm hoả tốc mà 10h30 đêm rồi shop vẫn tìm shipper giúp mình. Cảm ơn shop nhiều nhé`,
         },
         {
-          name: "Bauen Fernandes",
-          designation: "Web Developer",
-          imgSrc: require("../../assets/img/about/3.jpg"),
-          desc: `Really the Code, Support, and design are awesome and its good
-              support they are giving. They give an instant solution to our
-              needs. Really awesome. I will strongly recommend to my friends.
-              Great template, even better service!`,
+          name: "truongthitam",
+          designation: "Người mua hàng",
+          imgSrc: require("../../assets/img/feedback/3.jpg"),
+          desc: `Túi xinh xắn cute đáng iu ghê, màu nào cũng xinh :< Cô chủ đáng iu, nhiệt tình tư vấn, rất là hài lòng luônnnn. Toẹt vờiiii`,
         },
       ],
       hooperSettings: {
@@ -75,7 +69,7 @@ export default {
         autoPlay: true,
         mouseDrag: false,
         transition: 600,
-        playSpeed: 3500,
+        playSpeed: 5000,
         itemsToShow: 1,
       },
     };

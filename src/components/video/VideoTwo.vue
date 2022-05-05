@@ -27,7 +27,7 @@
           class="text"
           v-scroll-reveal="{ delay: 100, distance: '50px', duration: 1200 }"
         >
-          I am delivering beautiful digital products for my clients
+          Bộ sưu tập váy hoa nhí, những sản phẩm được yêu thích nhất
         </h3>
 
         <div
@@ -35,7 +35,7 @@
           v-scroll-reveal="{ delay: 150, distance: '50px', duration: 1400 }"
         >
           <button class="popup-youtube" @click="index = imageIndex">
-            Watch Video
+            Xem Video
           </button>
         </div>
       </div>
@@ -53,8 +53,8 @@ export default {
       index: null,
       youtubeItems: [
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../../assets/img/video/1.jpg"),
+          src: "https://youtu.be/_hrBoSeLx4Q",
+          thumb: require("../../assets/img/callto-action/2.jpg"),
         },
       ],
     };

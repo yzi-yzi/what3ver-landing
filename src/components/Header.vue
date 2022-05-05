@@ -5,10 +5,7 @@
         <div class="topbar_inner">
           <div class="logo">
             <router-link to="/">
-              <img
-                src="../assets/img/logo/new/dark_2.png"
-                alt="partners brand"
-              />
+              <img src="../assets/img/logo/logo.png" alt="partners brand" />
             </router-link>
           </div>
           <!-- End logo -->
@@ -48,10 +45,7 @@
           <div class="topbar_in">
             <div class="logo">
               <router-link to="/">
-                <img
-                  src="../assets/img/logo/new/dark_2.png"
-                  alt="partners brand"
-                />
+                <img src="../assets/img/logo/logo.png" alt="partners brand" />
               </router-link>
             </div>
             <!-- End logo -->

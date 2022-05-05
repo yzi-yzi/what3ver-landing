@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="shane_tm_all_wrap" data-color="orange">
     <router-view></router-view>
-    <back-top color="#fff" :size="1.2" bottom="5%" :slow="0"> </back-top>
+    <!-- <back-top color="#fff" :size="1.2" bottom="5%" :slow="0"> </back-top> -->
   </div>
 </template>
 
