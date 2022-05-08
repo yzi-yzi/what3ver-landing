@@ -13,7 +13,7 @@
         <div class="content">
           <div class="name_wrap">
             <h3>
-              <span>What3ver</span> <br />Boutique<span
+              <span>N G Ơ</span> <br />Clothing<span
                 class="overlay_effect"
               ></span>
             </h3>
@@ -22,7 +22,7 @@
 
           <div class="job_wrap">
             <span class="job">
-              Women Fashion / You are the only one
+              Giản dị theo cách riêng
               <span class="overlay_effect"></span>
             </span>
           </div>

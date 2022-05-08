@@ -33,7 +33,7 @@
             <div class="left" v-scroll-reveal="{ delay: 50 }">
               <div class="shane_tm_title">
                 <span>Đánh Giá</span>
-                <h3>Khách hàng nói gì sau khi mua sản phẩm tại What3ver</h3>
+                <h3>Khách hàng nói gì sau khi mua sản phẩm tại N G Ơ</h3>
               </div>
             </div>
 

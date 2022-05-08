@@ -17,14 +17,14 @@
       <div class="shane_tm_title">
         <span v-scroll-reveal="{ delay: 20 }">Giới Thiệu</span>
         <h3 v-scroll-reveal="{ delay: 40 }">
-          HÃY ĐỂ WHAT3VER GIÚP BẠN TRỞ NÊN ĐẶC BIỆT
+          HÃY ĐỂ <u>NGƠ</u> GIÚP BẠN TRỞ NÊN ĐẶC BIỆT
         </h3>
       </div>
       <div class="text" v-scroll-reveal="{ delay: 60 }">
         <p>
-          What3ver là tổng hợp những items mà chúng mình tâm đắc nhất, từ VÁY
-          ĐẦM, ÁO SƠ MI, CHÂN VÁY, CROPTOP, ÁO KIỂU NỮ thời trang được update
-          mới nhất, được nghiên cứu chọn lọc một cách kỹ lưỡng, thiết kế độc đáo
+          N G Ơ là tổng hợp những items mà chúng mình tâm đắc nhất, từ VÁY ĐẦM,
+          ÁO SƠ MI, CHÂN VÁY, CROPTOP, ÁO KIỂU NỮ thời trang được update mới
+          nhất, được nghiên cứu chọn lọc một cách kỹ lưỡng, thiết kế độc đáo
           giúp các bạn nữ che đi khuyết điểm và tôn lên vẻ đẹp của bản thân.
         </p>
       </div>

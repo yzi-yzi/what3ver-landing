@@ -19,11 +19,11 @@ export default {
           src: require("../assets/img/svg/social/shopee.svg"),
         },
         {
-          link: "https://www.facebook.com/what3verboutique",
+          link: "https://www.facebook.com/ngoclothingz",
           src: require("../assets/img/svg/social/facebook.svg"),
         },
         {
-          link: "https://www.instagram.com/what3ver.boutique",
+          link: "https://www.instagram.com/ngoclothingz",
           src: require("../assets/img/svg/social/instagram.svg"),
         },
         {

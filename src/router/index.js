@@ -10,7 +10,7 @@ const routes = [
     path: "/",
     name: "Home",
     meta: {
-      title: "Trang chủ",
+      title: "N G Ơ",
     },
     component: Home,
   },
@@ -38,7 +38,7 @@ const router = new VueRouter({
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
     document.title =
-      to.meta.title + " | What3ver Boutique - Thương hiệu thời trang nữ";
+      to.meta.title + " | Thương hiệu thời trang nữ";
   }
 });
 

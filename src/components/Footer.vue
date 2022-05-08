@@ -10,7 +10,7 @@
               target="_blank"
               rel="noreferrer"
             >
-              What3ver Boutique
+              N G Ơ Clothing
             </a>
             . Đã đăng kí bản quyền.
           </p>
