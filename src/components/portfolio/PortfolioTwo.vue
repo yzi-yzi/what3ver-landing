@@ -167,7 +167,7 @@ export default {
       activetab: 1,
       allItems: [
         {
-          src: "https://vimeo.com/43338103",
+          src: require("../../assets/img/portfolio/23.jpg"),
           thumb: require("../../assets/img/portfolio/23.jpg"),
           portfolioName: "My Song",
           portfolioType: "Váy",
@@ -185,13 +185,13 @@ export default {
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
+          src: require("../../assets/img/portfolio/31.jpg"),
           thumb: require("../../assets/img/portfolio/31.jpg"),
           portfolioName: "Túi vải canvas",
           portfolioType: "Túi Canvas",
         },
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
+          src: require("../..//assets/img/portfolio/5.jpg"),
           thumb: require("../..//assets/img/portfolio/5.jpg"),
           portfolioName: "University Life",
           portfolioType: "Áo Sơ Mi",
@@ -205,37 +205,37 @@ export default {
       ],
       vayItems: [
         {
-          src: "https://vimeo.com/43338103",
+          src: require("../../assets/img/portfolio/21.jpg"),
           thumb: require("../../assets/img/portfolio/21.jpg"),
           portfolioName: "My Sound",
           portfolioType: "Váy",
         },
         {
-          src: "https://vimeo.com/176916362",
+          src: require("../../assets/img/portfolio/22.jpg"),
           thumb: require("../../assets/img/portfolio/22.jpg"),
           portfolioName: "Old is Gold",
           portfolioType: "Váy",
         },
         {
-          src: "https://vimeo.com/176916362",
+          src: require("../../assets/img/portfolio/23.jpg"),
           thumb: require("../../assets/img/portfolio/23.jpg"),
           portfolioName: "Old is Gold",
           portfolioType: "Váy",
         },
         {
-          src: "https://vimeo.com/176916362",
+          src: require("../../assets/img/portfolio/28.jpg"),
           thumb: require("../../assets/img/portfolio/28.jpg"),
           portfolioName: "Old is Gold",
           portfolioType: "Váy",
         },
         {
-          src: "https://vimeo.com/176916362",
+          src: require("../../assets/img/portfolio/25.jpg"),
           thumb: require("../../assets/img/portfolio/25.jpg"),
           portfolioName: "Old is Gold",
           portfolioType: "Váy",
         },
         {
-          src: "https://vimeo.com/176916362",
+          src: require("../../assets/img/portfolio/26.jpg"),
           thumb: require("../../assets/img/portfolio/26.jpg"),
           portfolioName: "Old is Gold",
           portfolioType: "Váy",
@@ -243,37 +243,37 @@ export default {
       ],
       aosomiItems: [
         {
-          src: "https://youtu.be/YlBTaj0cXQY",
+          src: require("../../assets/img/portfolio/1.jpg"),
           thumb: require("../../assets/img/portfolio/1.jpg"),
           portfolioName: "Behance Design",
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
+          src: require("../../assets/img/portfolio/4.jpg"),
           thumb: require("../../assets/img/portfolio/4.jpg"),
           portfolioName: "Themeforest Design",
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/YlBTaj0cXQY",
+          src: require("../../assets/img/portfolio/7.jpg"),
           thumb: require("../../assets/img/portfolio/7.jpg"),
           portfolioName: "Behance Design",
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
+          src: require("../../assets/img/portfolio/8.jpg"),
           thumb: require("../../assets/img/portfolio/8.jpg"),
           portfolioName: "Themeforest Design",
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/YlBTaj0cXQY",
+          src: require("../../assets/img/portfolio/11.jpg"),
           thumb: require("../../assets/img/portfolio/11.jpg"),
           portfolioName: "Behance Design",
           portfolioType: "Áo Sơ Mi",
         },
         {
-          src: "https://youtu.be/ZOoVOfieAF8",
+          src: require("../../assets/img/portfolio/12.jpg"),
           thumb: require("../../assets/img/portfolio/12.jpg"),
           portfolioName: "Themeforest Design",
           portfolioType: "Áo Sơ Mi",

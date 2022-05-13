@@ -98,7 +98,7 @@
                   class="white-fill-bg btn-outline btn_sm"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://themeforest.net/"
+                  href="https://shopee.vn/what3ver_boutique"
                 >
                   Shop Now
                 </a>
