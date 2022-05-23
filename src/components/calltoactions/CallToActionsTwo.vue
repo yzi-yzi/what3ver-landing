@@ -1,6 +1,6 @@
 <template>
   <div
-    class="shane_tm_talk bg_image_props"
+    class="shane_tm_talk bg_image_props large_screen_80vh"
     :style="{ backgroundImage: 'url(' + imgSrc + ')' }"
     id="contact"
   >

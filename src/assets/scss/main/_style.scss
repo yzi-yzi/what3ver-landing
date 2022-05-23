@@ -3823,3 +3823,12 @@ body.intro .loader_line:after {
     }
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .large_screen_80vh {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

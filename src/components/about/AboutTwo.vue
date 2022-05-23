@@ -22,7 +22,7 @@
       </div>
       <div class="text" v-scroll-reveal="{ delay: 60 }">
         <p>
-          N G Ơ là tổng hợp những items mà chúng mình tâm đắc nhất, từ VÁY ĐẦM,
+          NGƠ là tổng hợp những items mà chúng mình tâm đắc nhất, từ VÁY ĐẦM,
           ÁO SƠ MI, CHÂN VÁY, CROPTOP, ÁO KIỂU NỮ thời trang được update mới
           nhất, được nghiên cứu chọn lọc một cách kỹ lưỡng, thiết kế độc đáo
           giúp các bạn nữ che đi khuyết điểm và tôn lên vẻ đẹp của bản thân.

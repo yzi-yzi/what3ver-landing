@@ -6,13 +6,13 @@
           <p>
             &copy; {{ new Date().getFullYear() }}
             <a
-              href="https://www.facebook.com/what3verboutique"
+              href="https://www.facebook.com/ngoclothingz"
               target="_blank"
               rel="noreferrer"
             >
-              N G Ơ Clothing
+              NGƠ Clothing.
             </a>
-            . Đã đăng kí bản quyền.
+            Đã đăng kí bản quyền.
           </p>
         </div>
         <!-- End inner -->
