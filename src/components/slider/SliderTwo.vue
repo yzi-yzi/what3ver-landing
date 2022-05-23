@@ -50,7 +50,7 @@ export default {
   },
   data() {
     return {
-      sliderHero: require("../../assets/img/slider/2.jpg"),
+      sliderHero: require("../../assets/img/slider/1.jpg"),
     };
   },
 };
