@@ -659,6 +659,11 @@ h6 {
 
   .container {
     position: static;
+
+    @media screen and (min-width: 768px) {
+      position: relative;
+      z-index: 9;
+    }
   }
 }
 
@@ -698,7 +703,8 @@ h6 {
 }
 
 .shane_tm_hero[data-style="three"] .background {
-  clip-path: ellipse(70% 80% at 70% 50%);
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  // ellipse(70% 80% at 70% 50%);
 }
 
 .shane_tm_hero .container {

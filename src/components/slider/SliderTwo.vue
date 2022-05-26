@@ -1,6 +1,24 @@
 <template>
   <div class="slider-two">
     <div class="shane_tm_hero" id="home" data-style="three">
+      <vue-particles
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="30"
+        shapeType="circle"
+        :particleSize="6"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="180"
+        :moveSpeed="6"
+        :hoverEffect="true"
+        hoverMode="repulse"
+        :clickEffect="false"
+        clickMode="push"
+      >
+      </vue-particles>
       <div class="background">
         <div
           class="image"
@@ -56,4 +74,14 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+</style>
