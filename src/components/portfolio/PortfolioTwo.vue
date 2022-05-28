@@ -19,7 +19,7 @@
             <a
               v-on:click="activetab = 1"
               :class="[activetab === 1 ? 'active' : '']"
-              >Tất Cả</a
+              >Yêu Thích</a
             >
           </li>
           <!-- End All for tabcontent 1 -->
